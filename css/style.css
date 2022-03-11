@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(234, 231, 231);
+}
+div.carousel-inner{
+    max-height: 600px;
+}
+div.carousel-item div.rgba{
+    background-color: rgba(0,0,0,0.4);
+    min-height: 500px;
+    max-height: 600px;
+}
+div.carousel-item{
+    background-repeat: no-repeat;
+    max-height: 600px;
+    background-size: cover;
+}
+div a{
+    text-decoration: none;
+}
+div a:hover{
+    text-decoration: none; 
+    color: gray;
+}
+div.card-header img.card-img-top{
+    min-height: 350px;
+}
+div#subscribe{
+    min-height: 80px;
+}
+footer{
+    min-height: 80px;
+}
+div.alert-dismissible{
+    min-height: 60px;
+}
+img#image{
+    max-height: 320px;
+}
+@media screen and (max-width: 768px) {
+    div#subscribe{
+        display: none;
+    }
+}
